@@ -1,2 +1,1 @@
-# MPWA
-https://shorturl.at/8kCda
+# MPWA | WA Gateway
