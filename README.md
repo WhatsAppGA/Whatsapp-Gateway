@@ -30,7 +30,7 @@ Multi language support (english, Indonesian, Indian, Spanish and Arabic) for eas
 
 6. Developer Options
 
-Currently WhatsApp Gateway | Multi Device* by Magd Almuntaser has provided various API services for your easy development consisting of:
+Currently WhatsApp Gateway | Multi Device provides various of API services for your easy development consisting of:
         1). Send Message API
         2). Send Media API
         3). Send Poll API
