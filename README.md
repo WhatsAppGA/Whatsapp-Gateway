@@ -1,4 +1,4 @@
-# Whatsapp Gateway | Multi Device
+# WhatsApp Gateway | Multi Device
 
 ## 1. WhatsApp Account Connectivity
 
