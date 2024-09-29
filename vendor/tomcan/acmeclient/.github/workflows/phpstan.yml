@@ -1,0 +1,33 @@
+name: phpstan
+on: [push]
+jobs:
+  php-81:
+    runs-on: ubuntu-latest
+    container:
+      image: intractosre/php:8.1
+      volumes:
+        - ${{ github.workspace }}:/app
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Composer
+        run: composer2 install
+      - name: Run phpstan
+        run: php ./vendor/bin/phpstan analyse --level=7 src
+      - name: run cs
+        run: PHP_CS_FIXER_FUTURE_MODE=1 php ./vendor/bin/php-cs-fixer fix -v --dry-run --diff src
+  php-82:
+    runs-on: ubuntu-latest
+    container:
+      image: intractosre/php:8.2
+      volumes:
+        - ${{ github.workspace }}:/app
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Composer
+        run: composer2 install
+      - name: Run phpstan
+        run: php ./vendor/bin/phpstan analyse --level=7 src
+      - name: run cs
+        run: PHP_CS_FIXER_FUTURE_MODE=1 php ./vendor/bin/php-cs-fixer fix -v --dry-run --diff src

@@ -1,0 +1,39 @@
+
+
+html.light-theme .sidebar-wrapper .metismenu .mm-active>a,
+html.light-theme .sidebar-wrapper .metismenu a:active,
+html.light-theme .sidebar-wrapper .metismenu a:focus,
+html.light-theme .sidebar-wrapper .metismenu a:hover {
+    color: #3461ff;
+    text-decoration: none;
+    background-color: rgb(52 97 255 / 10%);
+    border-left: 4px solid #3461ff;
+    box-shadow: none;
+}
+
+
+html.light-theme .sidebar-wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+html.light-theme .sidebar-wrapper .sidebar-header {
+    background-color: #ffffff;
+}
+
+html.light-theme .top-header .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+html.light-theme .top-header .navbar .searchbar .form-control {
+    background-color: #f9fafb;
+}
+
+
+html.light-theme .top-header .navbar .searchbar .form-control:focus {
+    background-color: #ffffff;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25)
+}
+

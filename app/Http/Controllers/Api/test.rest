@@ -1,0 +1,22 @@
+
+### test logout device
+
+POST http://whatsapp-gateway.test/logout-device
+Content-Type: 'application/json'
+
+{
+    "api_key": "fn3i8FXBNYqBf1rx4jDGjjpn77Bzll",
+    "sender": "6281287137725"
+}
+
+
+### test logout device
+
+POST http://whatsapp-gateway.test/delete-device
+Content-Type: 'application/json'
+
+{
+    "api_key": "fn3i8FXBNYqBf1rx4jDGjjpn77Bzll",
+    "sender": "6281287137725",
+    "force": true
+}

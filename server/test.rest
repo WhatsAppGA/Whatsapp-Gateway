@@ -1,0 +1,17 @@
+###
+# @name SendMessagePOST
+POST https://chat.mipsaripudin.com/send-message
+Content-Type: application/json
+
+{
+  "api_key": "afUmN8AYk2ojP9WYAp5ItDZCpFk82R",
+  "sender": "6281287137725",
+  "number": "082298859671",
+  "message": "<your_message>"
+}
+###
+
+###
+# @name SendMessageGET
+GET https://chat.mipsaripudin.com/send-message?api_key=<your_api_key>&sender=<your_number>&number=<recipient_number>&message=<your_message>
+###

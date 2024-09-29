@@ -1,0 +1,232 @@
+/* Email */
+
+.email-wrapper {
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    position: relative;
+    box-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+.email-sidebar {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+	background: #fff;
+    overflow: hidden;
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+[data-theme-version="dark"] .email-sidebar {
+	background-color: #1f1e26;
+}
+
+.email-sidebar-header {
+    width: auto;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 0 solid rgba(0, 0, 0, 0.125);
+    border-top-left-radius: 0.25rem;
+    padding: 15px;
+}
+
+.email-navigation {
+    position: relative;
+    padding: 0;
+    height: 345px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.email-header {
+    position: absolute;
+    height: 70px;
+    left: 400px;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top-right-radius: 0.25rem;
+    z-index: 1;
+}
+
+.email-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    top: 70px;
+    height: auto;
+    margin-left: 400px;
+    padding: 0;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.email-navigation a.list-group-item {
+    padding: 0.35rem 1.25rem;
+    border-bottom: 1px solid rgb(0 0 0 / 0%);
+    transition: all 0.3s ease-out;
+}
+
+.email-navigation a.list-group-item:hover {
+    background-color: rgb(13 110 253 / 0.12);
+}
+
+.email-navigation a.list-group-item.active {
+    color: #0b5ed7;
+    font-weight: 600;
+    background-color: rgb(13 110 253 / 0.12);
+}
+
+.email-meeting {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.email-meeting a.list-group-item {
+    color: #404142;
+    padding: 0.35rem 1.25rem;
+    border-bottom: 1px solid rgb(0 0 0 / 0%);
+}
+
+.email-meeting a.list-group-item:hover {
+    background-color: rgb(0 123 255 / 15%);
+    transition: all 0.3s ease-out;
+}
+
+.email-hangout .chat-user-online:before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 45px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #16e15e;
+}
+
+.email-toggle-btn {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #404142;
+    border-radius: 0;
+    cursor: pointer;
+    border: 0 solid rgb(0 0 0 / 15%);
+}
+
+.email-actions {
+    width: 230px;
+}
+
+.email-time {
+    font-size: 13px;
+    color: #6c757d;
+}
+
+.email-list div.email-message {
+    border-bottom: 1px solid rgb(0 0 0 / 8%);
+}
+
+.email-list div.email-message:hover {
+    transition: all 0.2s ease-out;
+    background-color: #eceef1;
+}
+
+.email-list {
+    position: relative;
+    height: 530px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.email-star {
+    color: #6c757d;
+}
+
+.email-read-box {
+    position: relative;
+    height: 530px;
+}
+
+.compose-mail-popup {
+    width: 42%;
+    position: fixed;
+    bottom: -30px;
+    right: 30px;
+    z-index: 15;
+    display: none;
+}
+
+.compose-mail-toggled {
+    display: block;
+}
+
+.compose-mail-title {
+    font-size: 16px;
+}
+
+.compose-mail-close {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: rgb(255 255 255 / 0%);
+}
+
+.compose-mail-close:hover {
+    background-color: rgb(255 255 255 / 20%);
+}
+
+.email-toggled .email-sidebar {
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .email-sidebar {
+        left: -280px;
+    }
+}
+
+@media (max-width: 967px) {
+    .email-sidebar {
+        width: 250px;
+    }
+    .email-header {
+        left: 250px;
+    }
+    .email-content {
+        margin-left: 250px;
+    }
+}
+
+.email-toggle-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.email-header {
+        left: 0;
+    }
+	.email-content {
+        margin-left: 0;
+        margin-top: 77px;
+    }
+	.email-toggle-btn {
+		display: block;
+	}
+}

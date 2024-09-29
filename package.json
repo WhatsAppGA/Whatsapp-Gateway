@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:TTMTT/Baileys-new",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.3",
+    "jimp": "^0.16.1",
+    "link-preview-js": "^3.0.5",
+    "mime-types": "^2.1.35",
+    "mysql2": "^3.6.5",
+    "node-cache": "^5.1.2",
+    "pino-pretty": "^10.2.3",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.32.6",
+    "socket.io": "^4.7.2",
+	"wa-sticker-formatter": "^4.4.4"
+  },
+  "name": "mpwa",
+  "version": "8.5.1",
+  "description": "Whatsapp remote API multi device, multi instance. Based on baileys.",
+  "main": "server.js",
+  "author": "Magd Almuntaser <ttmttgalaxy6@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "win-dev": "set NODE_ENV=development&&nodemon src/index",
+    "dev": "NODE_ENV=development node src/index",
+    "start": "NODE_ENV=production node src/index"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "credentials/*"
+    ]
+  }
+}
