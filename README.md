@@ -31,21 +31,21 @@ Multi language support (english, Indonesian, Indian, Spanish and Arabic) for eas
 6. Developer Options
 
 Currently WhatsApp Gateway | Multi Device provides various of API services for your easy development consisting of:
-        1). Send Message API
-        2). Send Media API
-        3). Send Poll API
-        4). API Send Button
-        5). Send API Templates
-        6). Send List message API
-        7). Send Location API
-        8). Send VCard API
-        9). Generate QR API
-        10). Disconnect devices
-        11). Create User API
-        12). User Info API
-        13). Device Info API
-        14). Check Number API
-        15). Webhook Example
+1. Send Message API
+2. Send Media API
+3. Send Poll API
+4. API Send Button
+5. Send API Templates
+6. Send List message API
+7. Send Location API
+8. Send VCard API
+9. Generate QR API
+10. Disconnect devices
+11. Create User API
+12. User Info API
+13. Device Info API
+14. Check Number API
+15. Webhook Example
 
 Ease of setup and availability of the (API Key) API Key for authentication and authorization of your development process.
 
