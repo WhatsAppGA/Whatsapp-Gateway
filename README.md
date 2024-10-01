@@ -6,30 +6,30 @@
 
 ## 1. WhatsApp Account Connectivity
 
-- All types of WhatsApp Accounts to be able to connect with WhatsApp Gateway (Multi Number & Multi Device);
+- All types of WhatsApp Accounts to be able to connect with WhatsApp Gateway (Multi Number & Multi Device).
 - Ease of the WhatsApp Account connectivity process with a QRcode Scan or with an Authentication Code directly from your device.
 
 ## 2. Message
 
-- Availability of various types of (text messages, media, polls, lists, locations, VCard) can easily be used by you;
-- You can send mass messages for your marketing campaign activities, promotions or business programs easily and on a scheduled basis;
-- Setup automatic message replies with more natural (alami) and selected keywords for operational optimization of use;
+- Availability of various types of (text messages, media, polls, lists, locations, VCard) can easily be used by you.
+- You can send mass messages for your marketing campaign activities, promotions or business programs easily and on a scheduled basis.
+- Setup automatic message replies with more natural (alami) and selected keywords for operational optimization of use.
 - Manage sent message history with automatic and scheduled deletions.
 
 ## 3. Integration
 
-- You can easily integrate your WhatsApp Account with various (AI) artificial intelligence services, namely ChatGPT, DALL-E, Gemini, and Cloude with API authentication codes only;
-- You can easily activate Ai for Single or Multiple use on your WhatsApp Account;
-- You can easily select Ai in your WhatsApp messages for WhatsApp Group, Private, or Both types;
-- You can easily setup call rejection automatically if there is a (Call) call and provide a specific response or information;
-- Setup your WhatsApp and Ai accounts more naturally (alami) with "Already read" status";
+- You can easily integrate your WhatsApp Account with various (AI) artificial intelligence services, namely ChatGPT, DALL-E, Gemini, and Cloude with API authentication codes only.
+- You can easily activate Ai for Single or Multiple use on your WhatsApp Account.
+- You can easily select Ai in your WhatsApp messages for WhatsApp Group, Private, or Both types.
+- You can easily setup call rejection automatically if there is a (Call) call and provide a specific response or information.
+- Setup your WhatsApp and Ai accounts more naturally (alami) with "Already read" status".
 - Setup your WhatsApp and Ai accounts more naturally (natural) with the status "Typing...".
 - You can easily integrate and communicate your services with the Webhook mechanism of WhatsApp Gateway | Multi Device.
 
 ## 4. Application Settings
 
-- Nowadays you can easily and quickly carry out the process of setting up the WhatsApp Gateway | Multi Device with the settings panel;
-- You can easily set up applications based on server ecosystem, smtp, etc quickly;
+- Nowadays you can easily and quickly carry out the process of setting up the WhatsApp Gateway | Multi Device with the settings panel.
+- You can easily set up applications based on server ecosystem, smtp, etc quickly.
 - Multi language support (english, Indonesian, Indian, Spanish and Arabic) for easy use.
 
 ## 5. Developer Options
@@ -59,10 +59,10 @@ Currently WhatsApp Gateway | Multi Device provides various of API services for y
 - A password reset service is available if you forget your account login information.
 
 
-Coming Soon:
+## Coming Soon:
 
-1. Landing page for Software as Service services (Subscription Services);
-2. Payment gateway page management (QRIS, BCA virtual account, PayPal, Stripe);
-3. Added user account management;
-4. (ticket) obstacle reporting service for users and managers;
+1. Landing page for Software as Service services (Subscription Services).
+2. Payment gateway page management (QRIS, BCA virtual account, PayPal, Stripe).
+3. Added user account management.
+4. (ticket) obstacle reporting service for users and managers.
 .. And many more. 
