@@ -1,5 +1,9 @@
 # WhatsApp Gateway | Multi Device
 
+![Example dashboard](https://i.imgur.com/KvHOJQc.png)
+
+----------
+
 ## 1. WhatsApp Account Connectivity
 
 - All types of WhatsApp Accounts to be able to connect with WhatsApp Gateway (Multi Number & Multi Device);
