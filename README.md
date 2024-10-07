@@ -19,11 +19,11 @@
 ## 3. Integration
 
 - You can easily integrate your WhatsApp Account with various (AI) artificial intelligence services, namely ChatGPT, DALL-E, Gemini, and Cloude with API authentication codes only.
-- You can easily activate Ai for Single or Multiple use on your WhatsApp Account.
-- You can easily select Ai in your WhatsApp messages for WhatsApp Group, Private, or Both types.
+- You can easily activate AI for Single or Multiple use on your WhatsApp Account.
+- You can easily select AI in your WhatsApp messages for WhatsApp Group, Private, or Both types.
 - You can easily setup call rejection automatically if there is a (Call) call and provide a specific response or information.
-- Setup your WhatsApp and Ai accounts more naturally (alami) with "Already read" status".
-- Setup your WhatsApp and Ai accounts more naturally (natural) with the status "Typing...".
+- Setup your WhatsApp and AI accounts more naturally (alami) with "Already read" status".
+- Setup your WhatsApp and AI accounts more naturally (natural) with the status "Typing...".
 - You can easily integrate and communicate your services with the Webhook mechanism of WhatsApp Gateway | Multi Device.
 
 ## 4. Application Settings
