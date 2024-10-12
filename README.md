@@ -58,6 +58,8 @@ Currently WhatsApp Gateway | Multi Device provides various of API services for y
 - Currently there is a 2 factor authentication (2FA) service available to maintain the security and comfort of application access.
 - A password reset service is available if you forget your account login information.
 
+## Wiki
+https://github.com/WhatsAppGA/Whatsapp-Gateway/wiki
 
 ## Coming Soon:
 
